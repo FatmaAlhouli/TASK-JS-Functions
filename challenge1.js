@@ -32,16 +32,12 @@ function printAge(printAge) {
  * -- tr: it should print `Merhaba NAME`
  */
 function printHello(name, language) {
-
-    return "en"
-      console.log('Hello ' + name);
-     
-     return  "es";
-     console.log ('Hola ' + name );
-     return  "fr"
+  console.log('Hello ' + name);
+   
+      console.log ('Hola ' + name );
+      
      console.log ('Bonjou ' + name );
-
-     return "tr";
+   
      console.log ('merhaba ' + name );
    
   }
@@ -52,8 +48,8 @@ function printHello(name, language) {
   printHello('Pierre', 'fr'); // Output: Bonjour Pierre
   printHello('Ali', 'tr'); // Output: Merhaba Ali
   printHello('Adam', 'de'); // Output: Invalid language
-  function printHello(name, language) {
-    return (name , language);
+  function printHello(name, language) 
+   
    console.log ('John', 'en');
    console.log ('Maria', 'es');
    console.log ('Pierre', 'fr');
