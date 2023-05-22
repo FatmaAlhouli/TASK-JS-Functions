@@ -8,6 +8,9 @@
  */
 function greet(name) {
   // Your code here
+
+  console.log("Hello " + name);
+
 }
 
 /**
@@ -21,6 +24,7 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
+  return n % 2 !== 0;
 }
 
 /**
@@ -34,6 +38,8 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   // Your code here
+  return Math.floor(n / 2)
+
 }
 
 /**
@@ -48,4 +54,9 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
+  if (n % 2 === 0) {
+    return n * 2;
+  } else {
+    return n * n;
+  }
 }
